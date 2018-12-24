@@ -43,4 +43,8 @@ node {
         archiveArtifacts artifacts: '**/build/libs/*.war', fingerprint: true
     }
 
+    stage('build docker') {
+        sh "./gradlew bootWar -Pprod jibDockerBuild"
+    }
+
 }
