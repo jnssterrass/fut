@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "fut",
+    "packageName": "com.salmeronmoya.fut",
+    "packageFolder": "com/salmeronmoya/fut",
+    "serverPort": 80,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "ca",
+      "en",
+      "es"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "ZWZhOWE1MzA2ZTY4YjU3NzE0N2ZmMWVjMWQxMGExYjkzMzI5NmRmZDk1NmMzYjMxMTQxNDg5ZGRkNWMyNDA3ZTc1ZGE3OGViZmUzN2QzNDBlNWFlYmI4MDg2YWQ0Njk2OTlkNmFiZTNhODI3MjFhY2QwOTgwNmI4NWZjMGI1ZGQ=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "jnssterrass",
+  "repository-name": "fut"
+}
